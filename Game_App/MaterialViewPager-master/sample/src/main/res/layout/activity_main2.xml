@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.github.florent37.materialviewpager.sample.Main2Activity"
+    android:background="#d3d3d3">
+
+
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#404040"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="USERNAME"
+            android:id="@+id/textView22"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="35dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginBottom="233dp"
+            android:textColor="#1E88E5"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText2"
+            android:textColor="#1E88E5"
+            android:textStyle="bold"
+            android:layout_alignTop="@+id/textView22"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="37dp"
+            android:layout_marginEnd="37dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="PASSWORD"
+            android:id="@+id/textView23"
+            android:layout_below="@+id/editText2"
+            android:layout_alignLeft="@+id/textView22"
+            android:layout_alignStart="@+id/textView22"
+            android:layout_marginTop="37dp"
+            android:textStyle="bold"
+            android:textColor="#1E88E5" />
+
+        <EditText
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText3"
+            android:textColor="#1E88E5"
+            android:textStyle="bold"
+            android:layout_alignTop="@+id/textView23"
+            android:layout_alignLeft="@+id/editText2"
+            android:layout_alignStart="@+id/editText2" />
+
+
+        <com.gc.materialdesign.views.ButtonRectangle
+            android:id="@+id/button0"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="#1E88E5"
+            android:text="LOGIN"
+            android:textSize="10dp"
+            android:onClick="invokeLogin"
+            android:layout_gravity="center"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView6"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView7"
+        android:background="@drawable/logo"
+        android:layout_below="@+id/imageView6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp" />
+</RelativeLayout>
+
