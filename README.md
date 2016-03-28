@@ -5,6 +5,15 @@ Purpose: To gamify electricity consumption, to make the user more conscious of h
 What is it?: There are 2 android applications is the project. One app is an ocr(optical character recognition) app and another is the main 'game' app. The OCR app, taking inspiration from the app 'CrownIt' is made for the purpose of directly reading the date and power consumed from a photo of an electricity bill. The Game app is to get the user to compete with himself, his friends and his neighbours for reducing power consumption.
 
 
+About:
+The Game app has 5 different features. 
+1. It intruduces a pre-paid option to pay for electricity. The benifit of this feature is that the user has the freedom to pay whenever he wants. The company also has a constant cash inflow.
+2. The 'Vs-Friends' Feature, where the user gets to compete with his friends (electricity consumed is converted to certain points. The points are stored online on a free hosted sql database.) he user an see his and his friends' points.
+3. The 'LeaderBoard', where the user can see the comparison of points of all his Friends/Neighbouors.
+4. The 'Goals', where the user sets a monthly goal for himself for electricity consumption. The app checks the value from his bills using the OCR app at the end of the month.
+5. The 'News' and 'Notification' section, where the user is constantly updated with news on electricity consumption and generation.
+
+
 What is Used:
 
 For OCR App: Tessaract, Tess-Two library 
